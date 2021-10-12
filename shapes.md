@@ -42,7 +42,7 @@ To draw some text on the canvas, we use the shape [TEXT](/docs/text) and declare
 
 ```
 SHAPE TEXT
-  .name hello
+  .name greeting
   .text "Hello"
   .color red
   .x 100
@@ -50,7 +50,7 @@ SHAPE TEXT
 ENDSHAPE
 ```
 
-The above set of statements declare a shape of type `TEXT`, and we have named it `hello`. The name of the shape should be unique
+The above set of statements declare a shape of type `TEXT`, and we have named it `greeting`. The name of the shape should be unique
 because it will help us refer this very shape when we animate it. This shape will write the text `"Hello"` on the canvas in color [Red](/docs/colors) at location `(100, 100)`.
 
 You can find more details and supported properties by the `TEXT` shape [here](/docs/text); and similar to this, you can find

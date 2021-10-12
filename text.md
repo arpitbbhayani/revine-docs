@@ -11,11 +11,11 @@ To understand how to declare and draw a shape please refer, to [this](/docs/shap
 
 ## Example
 
-To declare and draw a TEXT shape named `hello` with text "Hello" at position `(100, 100)` in color [Red](/docs/colors) we write the following statement.
+To declare and draw a TEXT shape named `greeting` with text "Hello" at position `(100, 100)` in color [Red](/docs/colors) we write the following statement.
 
 ```
 SHAPE TEXT
-  .name hello
+  .name greeting
   .text "Hello"
   .color red
   .x 100

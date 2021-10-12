@@ -11,10 +11,10 @@ For example, the [MOVE](/docs/move) command takes in the following parameters:
  - the direction of movement
  - the distance to be covered
 
-To move a shape named `hello` in the `RIGHT` direction by `50` units, the command we write is
+To move a shape named `greeting` in the `RIGHT` direction by `50` units, the command we write is
 
 ```
-MOVE hello RIGHT 50
+MOVE greeting RIGHT 50
 ```
 
 ![Revine Command Example](https://user-images.githubusercontent.com/4745789/136777488-4e2bd63e-889e-41cf-af7c-59f88e0a4aa8.gif)
