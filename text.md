@@ -7,7 +7,7 @@ The `TEXT` shape draws the mentioned text on the [canvas](/docs/canvas) at the p
 
 The font used to render the text is the default one and cannot be changed at the moment. Like the text font, the size of the text is also a constant and cannot be changed.  
 
-To understand how to declare and draw a shape please refer to [this](/docs/shapes) document.
+To understand how to declare and draw a shape please refer, to [this](/docs/shapes) document.
 
 ## Example
 
@@ -29,10 +29,10 @@ ENDSHAPE
 
 | Parameter | Description | Possible values | Default | Required? |
 |------------|------------|-----------------|-----------|---------|
-| `name`  |  name of the shape | | null  |  Yes  |
-| `text`  |  text to be drawn | | null  |  Yes  |
-| `color`  |  the color of the text | | Red  |  Yes  |
-| `x`  |  x coordinate of the text | | 0  |  Yes  |
-| `y`  |  y coordinate of the text | | 0  |  Yes  |
+| `name`  |  name of the shape | any text |  |  Yes  |
+| `text`  |  text to be drawn | any text |  |  Yes  |
+| `color`  |  the color of the text | [builtin colors](/docs/colors) | `BLACK`  |  Yes  |
+| `x`  |  x coordinate of the text | `0` to `500` | `0` |  No  |
+| `y`  |  y coordinate of the text | `0` to `500` | `0`  |  No  |
 
-> Currently there is no way to change the font.
+> Currently there is no way to change the font or the size.
