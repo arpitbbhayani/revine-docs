@@ -3,15 +3,32 @@ title: Move
 seq: 3.1
 ---
 
-The `MOVE` command moves the mentioned [shape](/docs/shapes) in the specified direction.
+The `MOVE` command moves a declared [shape](/docs/shapes) in the specified direction by a specified distance. `MOVE` command has the following syntax
+
+```
+MOVE <name of the shape> <direction> <distance>
+```
+
+For example, to move the [TEXT](/docs/text) object named `greeting` to the `RIGHT` by `50` units, we write
 
 ```
 MOVE greeting RIGHT 50
 ```
 
+![Revine Move Example](https://user-images.githubusercontent.com/4745789/136987897-3c66b590-7604-49d0-86bc-7e22dd63e333.gif)
+
+## Directions
+
+The available directions in which the shape can be moved are
+
+ - `RIGHT` or `EAST`
+ - `LEFT` or `WEST`
+ - `UP` or `NORTH`
+ - `DOWN` or `SOUTH`
+
 ## Example
 
-To declare and draw a TEXT shape named `greeting` with text "Hello" at position `(100, 100)` in color [Red](/docs/colors) we write the following statement.
+To move the greeting "hello" along the square of side `50` units we write
 
 ```
 SHAPE TEXT
@@ -21,18 +38,11 @@ SHAPE TEXT
   .x 100
   .y 100
 ENDSHAPE
+
+MOVE greeting RIGHT 50
+MOVE greeting UP 50
+MOVE greeting LEFT 50
+MOVE greeting DOWN 50
 ```
 
-![Revine Shape Text](https://user-images.githubusercontent.com/4745789/136927615-725abceb-af4c-4eb6-8431-1ec7ce37a771.gif)
-
-## Parameters
-
-| Parameter | Description | Possible values | Default | Required? |
-|------------|------------|-----------------|-----------|---------|
-| `name`  |  name of the shape | any text |  |  Yes  |
-| `text`  |  text to be drawn | any text |  |  Yes  |
-| `color`  |  the color of the text | [builtin colors](/docs/colors) | `BLACK`  |  Yes  |
-| `x`  |  x coordinate of the text | `0` to `500` | `0` |  No  |
-| `y`  |  y coordinate of the text | `0` to `500` | `0`  |  No  |
-
-> Currently there is no way to change the font or the size.
+![Revine Move Text in Square](https://user-images.githubusercontent.com/4745789/136987603-ab76a6f6-779d-448c-aa04-7d8a4c01d877.gif)
