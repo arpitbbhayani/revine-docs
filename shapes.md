@@ -24,7 +24,7 @@ SHAPE <TYPE OF SHAPE>
 ENDSHAPE
 ```
 
-There are a lot of prebuilt shapes like [TEXT](/docs/text), [CIRCLE](/docs/circle), and [LINE](/docs/line) that
+There are a lot of prebuilt shapes like [TEXT](/docs/text) that
 you can use for your animation and artwork. You can find all the supported shapes in the menu on the left-hand side.
 
 Every shape type has a set of properties, like `color`, `name`, `x`, and `y`, that it requires during declaration.
