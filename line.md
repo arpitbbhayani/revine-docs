@@ -34,7 +34,5 @@ ENDSHAPE
 | `y1`  |  y coordinate of the first point P1 | `0` to `500` | `0` |  No  |
 | `x2`  |  x coordinate of the first point P2 | `0` to `500` | `0` |  No  |
 | `y2`  |  y coordinate of the first point P2 | `0` to `500` | `0` |  No  |
-| `color`  |  the color of the line | [builtin colors](/docs/colors) | `BLACK`  |  No  |
 | `width`  |  the width of the line | `1` to `30` | `2`  |  No  |
-
-> Currently there is no way to change the width of the line.
+| `color`  |  the color of the line | [builtin colors](/docs/colors) | `BLACK`  |  No  |
