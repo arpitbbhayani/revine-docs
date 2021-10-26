@@ -19,7 +19,7 @@ SHAPE LINE
   .x2 200
   .y2 200
   .color red
-  .width 2
+  .thickness 2
 ENDSHAPE
 ```
 
@@ -34,5 +34,5 @@ ENDSHAPE
 | `y1`  |  y coordinate of the first point P1 | `0` to `500` | `0` |  No  |
 | `x2`  |  x coordinate of the first point P2 | `0` to `500` | `0` |  No  |
 | `y2`  |  y coordinate of the first point P2 | `0` to `500` | `0` |  No  |
-| `width`  |  the width of the line | `1` to `30` | `2`  |  No  |
+| `thickness`  |  the thickness of the line | `1` to `30` | `2`  |  No  |
 | `color`  |  the color of the line | [builtin colors](/docs/colors) | `BLACK`  |  No  |
