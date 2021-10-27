@@ -13,13 +13,13 @@ To declare and draw a LINE shape named `TheBigRedLine` between the points `(100,
 
 ```
 SHAPE LINE
-  .name TheBigRedLine
   .x1 100
   .y1 100
   .x2 200
   .y2 200
-  .color red
   .thickness 2
+  .color red
+  .name TheBigRedLine
 ENDSHAPE
 ```
 
@@ -29,10 +29,10 @@ ENDSHAPE
 
 | Parameter | Description | Possible values | Default | Required? |
 |------------|------------|-----------------|-----------|---------|
-| `name`  |  name of the shape | any text |  |  Yes  |
-| `x1`  |  x coordinate of the first point P1 | `0` to `500` | `0` |  No  |
-| `y1`  |  y coordinate of the first point P1 | `0` to `500` | `0` |  No  |
-| `x2`  |  x coordinate of the first point P2 | `0` to `500` | `0` |  No  |
-| `y2`  |  y coordinate of the first point P2 | `0` to `500` | `0` |  No  |
-| `thickness`  |  the thickness of the line | `1` to `30` | `2`  |  No  |
+| `x1`  |  x coordinate of the first point P1 | `0` to `500` | - |  Yes  |
+| `y1`  |  y coordinate of the first point P1 | `0` to `500` | - |  Yes  |
+| `x2`  |  x coordinate of the first point P2 | `0` to `500` | - |  Yes  |
+| `y2`  |  y coordinate of the first point P2 | `0` to `500` | - |  Yes  |
+| `thickness`  |  the thickness of the line | `1` to `100` | `2`  |  No  |
 | `color`  |  the color of the line | [builtin colors](/docs/colors) | `BLACK`  |  No  |
+| `name`  |  something you want to call this shape | any text | some random text |  No  |

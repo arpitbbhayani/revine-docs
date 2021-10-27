@@ -3,7 +3,7 @@ title: Shapes
 seq: 1.2
 ---
 
-Every object you draw on [canvas](/docs/canvas) is called a _Shape_. The shape could be a [line](/docs/line), a circle, or even [text](/docs/text). There are predefined shapes available for you to use and animate in your artwork.
+Every object you draw on [canvas](/docs/canvas) is called a _Shape_. The shape could be a [line](/docs/line), a [rectangle](/docs/rectangle), a circle, or even [text](/docs/text). There are predefined shapes available for you to use and animate in your artwork.
 
 ![Revine Shapes](https://user-images.githubusercontent.com/4745789/136773370-d7d3f6e2-4a27-42e6-9644-e05690ff0d17.png)
 
