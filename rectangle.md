@@ -3,13 +3,13 @@ title: Rectangle
 seq: 2.3
 ---
 
-The `RECTANGLE` shape draws a rectangle on the [canvas](/docs/canvas). To draw the rectangle provide the parameter `x`, `y` that specifies the top-left corner of the rectangle, and `width` and `height` denoting the width and the height of the rectangle. You can optionally specify the `color`, `thickness` of the rectangle and can choose to `fill` it with a specific color.
+The `RECTANGLE` shape draws a rectangle on the [canvas](/docs/canvas). To draw the rectangle provide the parameter `x` and `y` that specifies the top-left corner, and `width` and `height` specifying the width and the height of the rectangle respectively. You can optionally specify the `color` and `thickness` of the rectangle and can choose to color `fill` it.
 
 To understand how to declare and draw a shape please refer, to [this](/docs/shapes) document.
 
 ## Example
 
-To declare and draw a `RECTANGLE` shape named `TheBigRedRectangle` at the point `(100, 100)` with width being `100`, height being `40`, each side being `2` units thick, and filled with [Red](/docs/colors) color we write the following statement.
+To declare and draw a rectangle named `TheBigRedRectangle` at the point `(100, 100)` with width being `100`, height being `40`, thickness of `2` units, and filled with [Red](/docs/colors) color we write the following statement.
 
 ```
 SHAPE RECTANGLE
