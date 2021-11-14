@@ -3,7 +3,7 @@ title: Rectangle
 seq: 2.3
 ---
 
-The `RECTANGLE` shape draws a rectangle on the [canvas](/docs/canvas). To draw the rectangle provide the parameter `x` and `y` that specifies the top-left corner, and `width` and `height` specifying the width and the height of the rectangle respectively. You can optionally specify the `color` and `thickness` of the rectangle and can choose to color `fill` it.
+The `RECTANGLE` shape draws a rectangle on the [canvas](/docs/canvas). To draw the rectangle provide the parameter `position` that specifies the top-left corner, and `width` and `height` specifying the width and the height of the rectangle respectively. You can optionally specify the `color` and `thickness` of the rectangle and can choose to color `fill` it.
 
 To understand how to declare and draw a shape please refer, to [this](/docs/shapes) document.
 
@@ -13,8 +13,7 @@ To declare and draw a rectangle named `TheBigRedRectangle` at the point `(100, 1
 
 ```
 SHAPE RECTANGLE
-  .x 100
-  .y 100
+  .position (100, 100)
   .width 100
   .height 40
   .thickness 2
@@ -30,8 +29,7 @@ ENDSHAPE
 
 | Parameter | Description | Possible values | Default | Required? |
 |------------|------------|-----------------|-----------|---------|
-| `x`  |  x coordinate of the top-left point | `0` to `500` | - |  Yes  |
-| `y`  |  y coordinate of the top-left point | `0` to `500` | - |  Yes |
+| `position`  |  the position of the top-left corner | [point](/docs/point) | - |  Yes  |
 | `width`  |  width of the rectangle | `0` to `500` | - |  Yes  |
 | `height`  |  height of the rectangle | `0` to `500` | - |  Yes  |
 | `thickness`  |  the thickness of each side | `1` to `100` | `2`  |  No  |

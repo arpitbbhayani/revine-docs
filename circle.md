@@ -3,21 +3,20 @@ title: Circle
 seq: 2.4
 ---
 
-The `CIRCLE` shape draws a circle on the [canvas](/docs/canvas). To draw the circle provide the parameter `x` and `y` that specifies the center of the circle, and the `radius` specifying the radius of it.
+The `CIRCLE` shape draws a circle on the [canvas](/docs/canvas). To draw the circle provide the `center` parameter that specifies the center of the circle, and the `radius` specifying the radius of it.
 
 To understand how to declare and draw a shape please refer, to [this](/docs/shapes) document.
 
 ## Example
 
-To declare and draw a circle named `TheBigRedCircle` at the point `(250, 250)` with radius of `100` and thickness of `4` units, filled with [Red](/docs/colors) color we write the following statement.
+To declare and draw a circle named `TheBigRedCircle` that is centered at point `(250, 250)` with radius of `100` and thickness of `4` units, filled with [Red](/docs/colors) color we write the following statement.
 
 ```
 SHAPE CIRCLE
   .name TheBigRedCircle
   .color black
   .fill red
-  .x 250
-  .y 250
+  .center (250, 250)
   .radius 100
   .thickness 4
 ENDSHAPE
@@ -29,8 +28,7 @@ ENDSHAPE
 
 | Parameter | Description | Possible values | Default | Required? |
 |------------|------------|-----------------|-----------|---------|
-| `x`  |  x coordinate of center of the circle | `0` to `500` | - |  Yes  |
-| `y`  |  y coordinate of center of the circle | `0` to `500` | - |  Yes |
+| `center`  |  position of the center of the circle | [point](/docs/point) | - |  Yes |
 | `radius`  |  radius of the circle | `0` to `500` | - |  Yes  |
 | `thickness`  |  the thickness of the circle | `1` to `100` | `2`  |  No  |
 | `color`  |  the color of the border | [builtin colors](/docs/colors) | `BLACK`  |  No  |

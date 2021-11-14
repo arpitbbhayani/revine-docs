@@ -3,7 +3,7 @@ title: Line
 seq: 2.2
 ---
 
-The `LINE` shape draws a line between two points on the [canvas](/docs/canvas). You can optionally specify the color to be used while drawling the line.
+The `LINE` shape draws a line between two [points](/docs/points) on the [canvas](/docs/canvas). You can optionally specify the color to be used while drawling the line.
 
 To understand how to declare and draw a shape please refer, to [this](/docs/shapes) document.
 
@@ -13,10 +13,8 @@ To declare and draw a LINE shape named `TheBigRedLine` between the points `(100,
 
 ```
 SHAPE LINE
-  .x1 100
-  .y1 100
-  .x2 200
-  .y2 200
+  .point1 (100, 100)
+  .point2 (200, 200)
   .thickness 2
   .color red
   .name TheBigRedLine
@@ -29,10 +27,8 @@ ENDSHAPE
 
 | Parameter | Description | Possible values | Default | Required? |
 |------------|------------|-----------------|-----------|---------|
-| `x1`  |  x coordinate of the first point P1 | `0` to `500` | - |  Yes  |
-| `y1`  |  y coordinate of the first point P1 | `0` to `500` | - |  Yes  |
-| `x2`  |  x coordinate of the first point P2 | `0` to `500` | - |  Yes  |
-| `y2`  |  y coordinate of the first point P2 | `0` to `500` | - |  Yes  |
+| `point1`  |  starting point of the line | [point](/docs/point) | - |  Yes  |
+| `point2`  |  ending point of the line | [point](/docs/point) | - |  Yes  |
 | `thickness`  |  the thickness of the line | `1` to `100` | `2`  |  No  |
 | `color`  |  the color of the line | [builtin colors](/docs/colors) | `BLACK`  |  No  |
 | `name`  |  something you want to call this shape | any text | some random text |  No  |
