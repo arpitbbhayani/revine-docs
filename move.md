@@ -35,8 +35,7 @@ SHAPE TEXT
   .name greeting
   .text "Hello"
   .color red
-  .x 100
-  .y 100
+  .position (100, 100)
 ENDSHAPE
 
 MOVE greeting RIGHT 50
