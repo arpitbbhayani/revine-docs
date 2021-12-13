@@ -1,6 +1,6 @@
 ---
 title: Point
-seq: 1.5
+seq: 1.6
 ---
 
 Given that the Revine is a visual language and everything revolves around drawing and moving objects on the Canvas

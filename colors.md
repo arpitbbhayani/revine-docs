@@ -1,6 +1,6 @@
 ---
 title: Colors
-seq: 1.4
+seq: 1.5
 ---
 
 There is a constant set of predefined colors that you can choose to color your shape or canvas with. You can use the color by referring to it by the name, and here's the complete list.

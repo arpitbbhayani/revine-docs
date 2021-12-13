@@ -1,6 +1,6 @@
 ---
 title: Commands
-seq: 1.3
+seq: 1.4
 ---
 
 _Commands_ allow us to interact with the [canvas](/docs/canvas) and the [shapes](/docs/shapes) we drew on it. Every command will take in some parameters required by it to take the necessary actions.
