@@ -130,11 +130,12 @@ object cloud():
 endobject
 ```
 
-Now that we have a `cloud`, making it go right and left is simple. we simply invoke the [move](/docs/move) command as shown below
+Now that we have a `cloud`, making it go right is simple. we simply invoke the [move](/docs/move) command as shown below
 
 ```
-cloud.move(right, 50)
-cloud.move(left, 50)
+loop
+  cloud.move(RIGHT)
+endloop
 ```
 
-The above two commands will move `cloud` first to the right by `50` units and then to the left bt `50` units. The complete example can be seen in the [showcase](https://revine.arpitbhayani.me/showcase/cloud).
+The above commands will move `cloud` to the right. The complete example can be seen in the [showcase](https://revine.arpitbhayani.me/showcase/cloud).
