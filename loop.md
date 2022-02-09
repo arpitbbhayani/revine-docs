@@ -3,7 +3,7 @@ title: Loop
 seq: 1.5
 ---
 
-Any movements, actions, animation that needs to be run infinitely should be wrapped in the _loop_ and _endloop_ statements. The statements written within the `loop` will be run one after the other in order and forever. `loop` is the ideal place to write business logic for a game.
+Any movements, actions, animation that needs to be run infinitely should be wrapped in the _loop_ and _endloop_ statements. The statements written within the `loop` will be run one after the other forever. `loop` is the ideal place to write business logic for a game.
 
 For example, to continuously move the word "Hello" to the right you can put the [move](/docs/move) statement in the `loop` as shown below
 
