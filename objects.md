@@ -49,35 +49,35 @@ We see that a cloud is made up of 5 overlapping circles and hence we first creat
 ```
 shape c1(circle):
   .center = (100, 200)
-  .radius = 75
+  .radius = 60
   .color = lightgrey
   .fill = lightgrey
 endshape
 
 shape c2(circle):
   .center = (170, 170)
-  .radius = 125
+  .radius = 80
   .color = lightgrey
   .fill = lightgrey
 endshape
 
 shape c3(circle):
   .center = (270, 160)
-  .radius = 145
+  .radius = 100
   .color = lightgrey
   .fill = lightgrey
 endshape
 
 shape c4(circle):
   .center = (330, 180)
-  .radius = 100
+  .radius = 60
   .color = lightgrey
   .fill = lightgrey
 endshape
 
 shape c5(circle):
   .center = (380, 200)
-  .radius = 75
+  .radius = 60
   .color = lightgrey
   .fill = lightgrey
 endshape
@@ -94,35 +94,35 @@ object cloud():
 
   shape c1(circle):
     .center = (100, 200)
-    .radius = 75
+    .radius = 60
     .color = lightgrey
     .fill = lightgrey
   endshape
 
   shape c2(circle):
     .center = (170, 170)
-    .radius = 125
+    .radius = 80
     .color = lightgrey
     .fill = lightgrey
   endshape
 
   shape c3(circle):
     .center = (270, 160)
-    .radius = 145
+    .radius = 100
     .color = lightgrey
     .fill = lightgrey
   endshape
 
   shape c4(circle):
     .center = (330, 180)
-    .radius = 100
+    .radius = 60
     .color = lightgrey
     .fill = lightgrey
   endshape
 
   shape c5(circle):
     .center = (380, 200)
-    .radius = 75
+    .radius = 60
     .color = lightgrey
     .fill = lightgrey
   endshape
